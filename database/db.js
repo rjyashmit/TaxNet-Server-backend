@@ -2,7 +2,7 @@ import mongoose, { isValidObjectId } from "mongoose";
 import dotenv from "dotenv";
 dotenv.config();
 
-const uri = 'mongodb+srv://Tax_net:2MXf4bHnc8P6Ujgx@cluster0.vffmd4h.mongodb.net/data';
+//const uri = mongo_url;
 
 const connectDB = async () => {
     try {
